@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Freckle Face', cursive;
+    font-family: 'Handjet', cursive;
+}
+
+.menu-header ul li a{
+    visibility: hidden;
+}
+
+.botonPersonalizado{
+    visibility: hidden;
+}
+
+@media(min-width: 480px){
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 55px 0px 30px 0px;
+    }
+      
+    .logotipo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px; 
+    }
+    
+    .menu-header ul {
+        display: flex;
+        justify-content: space-around;
+        color: black; 
+        list-style: none;
+    }
+    
+    .menu-header li{
+        margin-right: 10px;
+    }
+    
+    .menu-header a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .botonPersonalizado {
+        background-color:#8B48BF;
+        color: white;
+        border-radius: 50px;
+        border: none;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-size: 13px;
+        padding: 10px;
+    }
+}
