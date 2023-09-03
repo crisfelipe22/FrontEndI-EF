@@ -48,10 +48,6 @@ main img{
     width: 100%;
 }
 
-article{
-    padding: 20px;
-}
-
 .tituloPrincipal{
     font-weight: 700;
     font-size: 46px;
@@ -149,7 +145,7 @@ button{
     padding-right: 20px;
 }
 
-.tituloMejor{
+.mejorProfesional{
     text-align: center;
     padding: 50px;
     font-weight: 700;
@@ -198,6 +194,7 @@ button{
     align-items: center;
     background-color: #3CDDF3;
     color: #ffffff;
+    width: 100vw;
     padding: 20%;
     margin-top: 30px;
 }
@@ -221,6 +218,7 @@ footer{
     align-items: center;
     background-color: #1E1E26;
     width: 100%;
+    padding-top: 20px;
     color: white;
 }
 
@@ -228,6 +226,10 @@ footer{
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+
+.formulario{
+    padding-bottom: 30px;
 }
 
 .enlaces ul{
@@ -251,31 +253,62 @@ footer{
     height: 33px;
 }
 
-.redesSociales{
+.enlacesRedesSociales{
     display: flex;
-    width: 100%;
+    flex-direction: row;
     justify-content: space-around;
 }
 
+footer{
+    width: 100vw;
+}
+
+footer .logotipo{
+    margin-top: 10px;
+    text-align: center;
+}
+
 footer p{
-    padding: 40px;
     font-size: 12px;
+    padding-bottom: 20px;
 }
 
 @media(min-width: 480px){
-    
-    .menu-header ul {
-        justify-content: space-around;
-        color: black; 
+
+    .menu-header ul li a{
+        color: #242E52;
+        display: flex;
+        visibility: visible;
     }
-    
+
+    .menu-header ul{
+        display: flex;
+        flex-direction: row;
+    }
+
     .menu-header li{
-        margin-right: 10px;
+        margin: 0px 15px;
+    }
+
+    .menu-header a:hover{
+        color: rgba(36, 46, 82, 0.6);
     }
     
     .menu-header a{
         text-decoration: none;
-        color: #000000;
+        
+    }
+
+    .hamburger-mobile{
+        display: none;
+        visibility: hidden;
+    }
+
+    .botonHeader{
+        display: flex;
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
     }
 
     .seccionPrincipal{
@@ -287,12 +320,10 @@ footer p{
 
     .imagenPrincipal{
         width: 40%;
-        height: 50%;
     }
 
     .tituloPrincipal{
         width: 40%;
-        height: 50% ;
     }
 
     .imagenPrincipal{
@@ -300,8 +331,69 @@ footer p{
         flex-direction: row;
     }
 
+    .divisionMain, .divisionFinalMain{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #8B48BF;
+    }
+
+    /* .divisionMain, .divisionFinalMain{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 3%;
+        background-color: #8B48BF;
+    }
+
+    .divisionMain h2, .divisionMain p{
+        text-align: center;
+        width: 100%;
+        padding: 0% 5%;
+    }
+
+    .divisionFinalMain h2, .divisionFinalMain p{
+        text-align: center;
+        width: 100%;
+        padding: 0% 5%;
+    } */
+
     .botonHeader {
         width: 150px;
         height: 40px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .redesSociales{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .enlacesRedesSociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .logotipo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .redesSociales i{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #email{
+        width: 70%;
     }
 }
