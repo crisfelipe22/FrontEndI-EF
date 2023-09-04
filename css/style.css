@@ -48,6 +48,10 @@ main img{
     width: 100%;
 }
 
+article{
+    padding: 0 30px;
+}
+
 .tituloPrincipal{
     font-weight: 700;
     font-size: 46px;
@@ -117,14 +121,15 @@ button{
     width: 90%;
 }
 
+.diferenciaProfesional{
+    padding-right: 0px;
+    padding: 15px 0px 15px 15px;
+    align-items: center;
+}
+
 .diferenciaProfesional button{
     width: 69px;
     padding: 15px 0px 15px 0px;
-}
-
-.diferenciaProfesional{
-    padding-right: 0px;
-    align-items: center;
 }
 
 .diferenciaProfesional h6{
@@ -217,9 +222,18 @@ footer{
     flex-direction: column;
     align-items: center;
     background-color: #1E1E26;
-    width: 100%;
     padding-top: 20px;
     color: white;
+}
+
+.footer{
+    width: 100%;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
 }
 
 .enlaces{
@@ -228,44 +242,45 @@ footer{
     width: 100%;
 }
 
-.formulario{
-    padding-bottom: 30px;
-}
-
 .enlaces ul{
     display: flex;
     flex-direction: column;
     width: 50%;
+    padding-left: 70px;
+}
+
+.enlaces li{
+    padding-bottom: 15px;
 }
 
 #email{
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     height: 33px;
-    width: 70vw;
+    width: 60vw;
     color: #A0A0A0;
+    padding-right: 20px;
 }
 
 #emailBoton{
     background-color: #8B48BF;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
+    width: 50px;
     height: 33px;
+    color: white;
 }
 
 .enlacesRedesSociales{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-footer{
-    width: 100vw;
+    padding: 20px 0px;
 }
 
 footer .logotipo{
-    margin-top: 10px;
     text-align: center;
+    padding: 20px 0px;
 }
 
 footer p{
@@ -273,7 +288,7 @@ footer p{
     padding-bottom: 20px;
 }
 
-@media(min-width: 480px){
+@media(min-width: 660px){
 
     .menu-header ul li a{
         color: #242E52;
@@ -338,7 +353,40 @@ footer p{
         background-color: #8B48BF;
     }
 
-    /* .divisionMain, .divisionFinalMain{
+    .seccionDiferenciaProfecional{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #FAFAFA;
+    }
+
+    .diferenciaProfesional{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 35px;
+        padding-right: 15px;
+    }
+
+    .fondoDiferencias{
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        background-color: white;
+    }
+
+    .diferenciaProfesional p{
+        padding-left: 75px;
+    }
+
+    .seccionDivision{
+        width: 100%;
+        padding: 15px;
+        background-color: #8B48BF;
+    }
+
+    .divisionMain{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -347,17 +395,93 @@ footer p{
         background-color: #8B48BF;
     }
 
+    .divisionFinalMain{
+        display: flex;
+        width: 95vw;
+        padding: 0;
+        justify-content: space-around;
+    }
+
     .divisionMain h2, .divisionMain p{
         text-align: center;
         width: 100%;
         padding: 0% 5%;
     }
 
-    .divisionFinalMain h2, .divisionFinalMain p{
-        text-align: center;
-        width: 100%;
+    .divisionFinalMain h2{
+        width: 60%;
+        text-align: left;
         padding: 0% 5%;
-    } */
+    }
+
+    .divisionFinalMain button{
+        background-color: white;
+        color: #8B48BF;
+    }
+
+    .seccionMejorProfesional{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 40px 0px;
+    }
+
+    .seccionMejorProfesional h2{
+        width: 100%;
+    }
+
+    .sanyo{
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 500;
+        padding: 40px;
+        width: 33%;
+    }
+    
+    .sanyo img{
+        max-width: 20%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .sanyo p{
+        padding-top: 20px;
+        text-align: center;
+        color: #B9B9C1;
+    }
+
+    .lebron{
+        width: 33%;
+    }
+
+    .lebron p{
+        text-align: center;
+        color: #B9B9C1;
+    }
+
+    .navarro{
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 500;
+        padding: 40px;
+        width: 33%;
+    }
+    
+    .navarro img{
+        max-width: 20%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .navarro p{
+        padding-top: 20px;
+        text-align: center;
+        color: #B9B9C1;
+    }
 
     .botonHeader {
         width: 150px;
@@ -370,6 +494,10 @@ footer p{
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .formulario{
+        width: 33%;
     }
 
     .redesSociales{
@@ -395,5 +523,11 @@ footer p{
 
     #email{
         width: 70%;
+    }
+
+    footer p{
+        text-align: right;
+        width: 100%;
+        padding-right: 20%;
     }
 }
