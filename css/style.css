@@ -448,7 +448,7 @@ footer p{
     .divisionFinalMain h2{
         width: 50%;
         text-align: left;
-        padding: 0% 5%;
+        padding-right: 180px;
     }
 
     .divisionFinalMain button{
@@ -472,28 +472,56 @@ footer p{
         visibility: visible;
         flex-direction: column;
         align-items: center;
-        font-weight: 500;
-        padding: 40px;
-        width: 33%;
+        width: 32%;
+        background-color: #FAFAFA;
+        padding-top: 30px;
+        margin: 20px 0px 20px 10px;
+        position: relative;
     }
     
     .sanyo img{
-        max-width: 20%;
-        height: auto;
-        padding-bottom: 20px;
+        position: absolute;
+        z-index: 1;
+        max-width: 15%;
+        top: -35px;
+        left: auto;
     }
     
+    .sanyo h4{
+        padding: 20px 0px;
+    }
+
     .sanyo p{
-        padding-top: 20px;
         text-align: center;
         color: #B9B9C1;
     }
 
     .lebron{
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        align-items: center;
         width: 33%;
+        background-color: #FAFAFA;
+        padding-top: 30px;
+        margin: 20px 0px;
+        position: relative;
+    }
+
+    .lebron img{
+        position: absolute;
+        z-index: 1;
+        max-width: 15%;
+        top: -35px;
+        left: auto;
+    }
+
+    .lebron h4{
+        padding: 20px 0px;
     }
 
     .lebron p{
+        padding-top: 20px;
         text-align: center;
         color: #B9B9C1;
     }
@@ -503,15 +531,23 @@ footer p{
         visibility: visible;
         flex-direction: column;
         align-items: center;
-        font-weight: 500;
-        padding: 40px;
         width: 33%;
+        background-color: #FAFAFA;
+        padding-top: 30px;
+        margin: 20px 0px;
+        position: relative;
     }
     
     .navarro img{
-        max-width: 20%;
-        height: auto;
-        padding-bottom: 20px;
+        position: absolute;
+        z-index: 1;
+        max-width: 15%;
+        top: -40px;
+        left: auto;
+    }
+
+    .navarro h4{
+        padding: 20px 0px;
     }
     
     .navarro p{
