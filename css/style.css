@@ -57,8 +57,11 @@ article{
     font-size: 46px;
     color: #232C50;
     text-align: right;
+    padding-top: 60px;
 }
-
+.tituloPrincipal h1{
+    font-size: 50px;
+}
 .tituloPrincipal span{
     text-transform: uppercase;
 }
@@ -186,7 +189,7 @@ button{
     width: 150px;
     height: 43px;
     margin: 0 auto;
-    background-color: #8B48BFB2;
+    background-color:#8B48BF;
 }
 
 .navarro{
@@ -252,7 +255,8 @@ footer{
     flex-direction: column;
     width: 50%;
     padding-left: 70px;
-    font-size: 10px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .enlaces li{
@@ -472,10 +476,10 @@ footer p{
         visibility: visible;
         flex-direction: column;
         align-items: center;
-        width: 32%;
+        width: 33%;
         background-color: #FAFAFA;
         padding-top: 30px;
-        margin: 20px 0px 20px 10px;
+        margin: 20px 0px;
         position: relative;
     }
     
@@ -492,8 +496,10 @@ footer p{
     }
 
     .sanyo p{
+        padding-top: 20px;
         text-align: center;
         color: #B9B9C1;
+        font-size: 15px;
     }
 
     .lebron{
@@ -524,6 +530,7 @@ footer p{
         padding-top: 20px;
         text-align: center;
         color: #B9B9C1;
+        font-size: 15px;
     }
 
     .navarro{
@@ -554,6 +561,7 @@ footer p{
         padding-top: 20px;
         text-align: center;
         color: #B9B9C1;
+        font-size: 15px;
     }
 
     .botonHeader {
