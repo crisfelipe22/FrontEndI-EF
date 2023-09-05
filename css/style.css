@@ -1,0 +1,570 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body { 
+    font: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Freckle Face', cursive;
+    font-family: 'Handjet', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0px 15px 0px;
+    width: 100wh;
+}
+
+.logotipo {
+    padding: 10px; 
+}
+
+.menu-header ul li a{
+    display: none;
+    visibility: hidden;
+}
+
+ul{ 
+    list-style: none;
+}
+
+.botonHeader{
+    display: none;
+    visibility: hidden;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main img{
+    width: 100%;
+}
+
+article{
+    padding: 0 30px;
+}
+
+.tituloPrincipal{
+    font-weight: 700;
+    font-size: 46px;
+    color: #232C50;
+    text-align: right;
+}
+
+.tituloPrincipal span{
+    text-transform: uppercase;
+}
+
+.tituloPrincipal p{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+button{
+    background-color:#8B48BF;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.botonContacto{
+    font-size: 13px;
+    width: 150px;
+    height: 43px;
+} 
+
+.divisionMain{
+    background-color: #3CDDF3;
+    color: #ffffff;
+    padding: 40px 40px 40px 20px;
+    margin: 30px 0px;
+}
+
+.divisionMain h2{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    padding-bottom: 25px;
+}
+
+.divisionMain p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.fondoDiferencias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    background-color: rgba(139, 72, 191, 0.3);
+    padding-right: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.fondoDiferencias button{
+    width: 10%;
+}
+
+.fondoDiferencias h6{
+    width: 90%;
+}
+
+.diferenciaProfesional{
+    padding-right: 0px;
+    padding: 15px 0px 15px 15px;
+    align-items: center;
+}
+
+.diferenciaProfesional button{
+    width: 69px;
+    padding: 15px 0px 15px 0px;
+}
+
+.diferenciaProfesional h6{
+    display: flex;
+    align-items: center;
+    color: #323851;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.diferenciaProfesional p{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: block;
+    color: #B3B2B7;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.mejorProfesional{
+    text-align: center;
+    padding: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sanyo{
+    display: none;
+    visibility: hidden;
+}
+
+.lebron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    padding: 40px;
+}
+
+.lebron img{
+    max-width: 20%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.lebron p{
+    padding-top: 20px;
+}
+
+.botonMejor{
+    display: block;
+    width: 150px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+.navarro{
+    display: none;
+    visibility: hidden;
+}
+
+.divisionFinalMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #3CDDF3;
+    color: #ffffff;
+    width: 100vw;
+    padding: 20%;
+    margin-top: 30px;
+}
+
+.divisionFinalMain h2{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.divisionFinalMain button{
+    background-color: #232C50;
+    height: 43px;
+    width: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1E26;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.enlaces ul{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 70px;
+}
+
+.enlaces li{
+    padding-bottom: 15px;
+}
+
+#emailTexto{
+    height: 43px;
+    width: 60vw;
+    color: #A0A0A0;
+    padding-right: 20px;
+}
+
+#emailBoton{
+    background-color: #8B48BF;
+    border-radius: 20px;
+    border: none;
+    width: 50px;
+    height: 43px;
+    color: white;
+}
+
+.enlacesRedesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+footer .logotipo{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer p{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.formulario input[type="email"]:invalid{
+    border: 4px solid red;
+    border-radius: 20px;
+    color: black;
+}
+
+.formulario input[type="email"]:valid{
+    border: 4px solid green;
+    border-radius: 20px;
+    color: black;
+}
+
+@media(min-width: 660px){
+
+    .menu-header ul li a{
+        color: #242E52;
+        display: flex;
+        visibility: visible;
+    }
+
+    .menu-header ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu-header li{
+        margin: 0px 15px;
+    }
+
+    .menu-header a:hover{
+        color: rgba(36, 46, 82, 0.6);
+        cursor: pointer;
+    }
+    
+    .menu-header a{
+        text-decoration: none;
+        
+    }
+
+    .hamburger-mobile{
+        display: none;
+        visibility: hidden;
+    }
+
+    .botonHeader{
+        display: flex;
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seccionPrincipal{
+        display: flex;
+        flex-direction: row;
+        margin: 10%;
+        justify-content: space-between;
+    }
+
+    .imagenPrincipal{
+        width: 40%;
+    }
+
+    .tituloPrincipal{
+        width: 40%;
+    }
+
+    .imagenPrincipal{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .divisionMain, .divisionFinalMain{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #8B48BF;
+    }
+
+    .seccionDiferenciaProfecional{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #FAFAFA;
+    }
+
+    .diferenciaProfesional{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 35px;
+        padding-right: 15px;
+    }
+
+    .fondoDiferencias{
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        background-color: white;
+    }
+
+    .diferenciaProfesional p{
+        padding-left: 75px;
+    }
+
+    .seccionDivision{
+        width: 100%;
+        padding: 15px;
+        background-color: #8B48BF;
+    }
+
+    .divisionMain{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 3%;
+        background-color: #8B48BF;
+    }
+
+    .divisionFinalMain{
+        display: flex;
+        width: 95vw;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .divisionMain h2, .divisionMain p{
+        text-align: center;
+        width: 100%;
+        padding: 0% 5%;
+    }
+
+    .divisionFinalMain h2{
+        width: 50%;
+        text-align: left;
+        padding: 0% 5%;
+    }
+
+    .divisionFinalMain button{
+        background-color: white;
+        color: #8B48BF;
+    }
+
+    .seccionMejorProfesional{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 40px 0px;
+    }
+
+    .seccionMejorProfesional h2{
+        width: 100%;
+    }
+
+    .sanyo{
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 500;
+        padding: 40px;
+        width: 33%;
+    }
+    
+    .sanyo img{
+        max-width: 20%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .sanyo p{
+        padding-top: 20px;
+        text-align: center;
+        color: #B9B9C1;
+    }
+
+    .lebron{
+        width: 33%;
+    }
+
+    .lebron p{
+        text-align: center;
+        color: #B9B9C1;
+    }
+
+    .navarro{
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 500;
+        padding: 40px;
+        width: 33%;
+    }
+    
+    .navarro img{
+        max-width: 20%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .navarro p{
+        padding-top: 20px;
+        text-align: center;
+        color: #B9B9C1;
+    }
+
+    .botonHeader {
+        width: 150px;
+        height: 40px;
+    }
+
+    .botonMejor:hover{
+        opacity: 80%;
+        cursor: pointer;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        margin: 0;
+        padding: 15px 0px 0px 0px;
+        flex-wrap: wrap;
+    }
+
+    .formulario{
+        display: flex;
+        width: 33%;
+    }
+
+    footer .logotipo{
+        padding: 0px;
+    }
+
+    .enlaces{
+        display: flex;
+        flex-direction: row;
+        width: 33%;
+    }
+
+    .redesSociales{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 33%;
+        flex-wrap: wrap;
+    }
+
+    .enlacesRedesSociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .enlacesRedesSociales i{
+        padding-left: 15px;
+    }
+
+    footer .logotipo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .redesSociales i{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #emailTexto{
+        width: 70%;
+    }
+
+    footer p{
+        text-align: right;
+        width: 100%;
+        padding-right: 10%;
+        color: #8C8C94;
+    }
+}
