@@ -93,13 +93,13 @@ button{
 .divisionMain h2{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 30px;
     padding-bottom: 25px;
 }
 
 .divisionMain p{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .fondoDiferencias{
@@ -186,6 +186,7 @@ button{
     width: 150px;
     height: 43px;
     margin: 0 auto;
+    background-color: #8B48BFB2;
 }
 
 .navarro{
@@ -418,7 +419,7 @@ footer p{
 
     .seccionDivision{
         width: 100%;
-        padding: 15px;
+        padding: 0%;
         background-color: #8B48BF;
     }
 
@@ -439,7 +440,7 @@ footer p{
     }
 
     .divisionMain h2, .divisionMain p{
-        text-align: center;
+        text-align: left;
         width: 100%;
         padding: 0% 5%;
     }
